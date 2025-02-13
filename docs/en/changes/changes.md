@@ -66,6 +66,12 @@
 * OAP self observability: Add watermark circuit break/recover metrics.
 * Add Baseline module for support alarm module query baseline data.
 * BaseLine: Support query baseline metrics names.
+* Add `Get Node List in the Cluster` API.
+* Add type descriptor when converting Envoy logs to JSON for persistence, to avoid conversion error.
+* Bseline: Support query baseline with MQE and use in the Alarm Rule.
+* Bump up netty to 4.11.118 to fix CVE-2025-24970.
+* Add `Get Alarm Runtime Status` API.
+* Add `lock` when query the Alarm metrics window values.
 
 #### UI
 
@@ -102,6 +108,9 @@
 * Add Status APIs docs.
 * Simplified the release process with removing maven central publish relative processes.
 * Add Circuit Breaking mechanism doc.
+* Add `Get Node List in the Cluster` API doc.
+* Remove `meter.md` doc, because `mal.md` has covered all the content.
+* Merge `browser-http-api-protocol.md` doc into `browser-protocol.md`.
 
 
 All issues and pull requests are [here](https://github.com/apache/skywalking/milestone/224?closed=1)
